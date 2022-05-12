@@ -121,7 +121,7 @@ def rfc3339(date, utc=False, use_system_timezone=True):
         >>> rfc3339('foo bar')
         Traceback (most recent call last):
         ...
-        TypeError: Expected timestamp or date object. Got <type 'str'>.
+        TypeError: Expected timestamp or date object. Got <class 'str'>.
 
     For dates before January 1st 1970, the timezones will be the ones used in
     1970. It might not be accurate, but on most sytem there is no timezone
